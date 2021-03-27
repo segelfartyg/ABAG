@@ -1,0 +1,334 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Goldman', cursive;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+header{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+  
+   justify-content: center;
+   
+    height: 10vh;
+    width: 100%;
+    background: linear-gradient(20deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+
+   
+    
+
+
+}
+
+.wavebar{
+    width: 100%;
+    height: 0.5vh;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 50%, rgb(0, 0, 0)75%,  rgb(0, 0, 0) 100%);
+    filter: drop-shadow(0px -0.25vh 0.5vh black);
+}
+
+.wavebard{
+    width: 100%;
+    height: 0.5vh;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgb(0, 0, 0) 50%, rgb(0, 0, 0)75%,  rgb(0, 0, 0) 100%);
+    filter: drop-shadow(0px 0.25vh 0.5vh black);
+}
+
+.boxnav{
+width: 2rem;
+margin: auto;
+}
+
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navitem {
+    color: red;
+    font-size: 1rem;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.navitem img{
+    color: red;
+    font-size: 1rem;
+    margin: auto;
+    margin-left: 0px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.headerimg{
+height: 6vh;
+
+
+
+
+}
+
+.enroll{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: fit-content;
+    background: white;
+    border-left: solid red 5px;
+    border-top: solid red 5px;
+    padding: 1rem;
+
+}
+
+
+#underlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display:block;
+}
+
+
+#container{
+min-height: 80vh;
+height: fit-content;
+display: grid;
+
+
+background: linear-gradient(120deg, rgb(255, 255, 255) 0%, rgb(240, 240, 240) 25%, rgb(126, 126, 126) 50%, white 75%,  rgb(255, 255, 255) 100%);
+background: url("redspace2.jpg");
+
+background-size: cover;
+background-repeat: repeat-y;
+}
+
+
+
+.footer{
+    min-height: 5%;
+    width: 100%;
+    background: linear-gradient(20deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+   
+}
+
+#gridcontroller{
+    border-radius: 50px;
+    margin: auto;
+  
+    padding: 15px;
+    background: white;
+    border: solid rgb(0, 0, 0) 0.5vh;
+    width: fit-content;
+    filter:drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+#vcontainer{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+#maincanvas{
+
+    background: rgb(255, 255, 255);
+    height: 500px;
+    width: 500px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+#midrow{
+    display: grid;
+    grid-template-columns: 40px auto 40px;
+}
+
+#uparrow{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+    display: grid;
+   
+}
+
+#leftarrow{
+    width: 40px;
+    height: 100%;
+    display: grid;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+}
+
+#rightarrow{
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+    display: grid;
+}
+
+#downarrow{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+    display: grid;
+}
+
+.arrow{
+    margin: auto;
+    height: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+#adressfield{
+    background: white;
+    border: solid rgb(0, 0, 0) 5px;
+    filter: drop-shadow(5px 5px 5px black);
+    width:fit-content;
+    margin: auto;
+   
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+#adressform{
+    display: grid;
+    
+}
+
+#adressfield button{
+   color: black;
+   margin: auto;
+   height: 2rem;
+   width: 3rem;
+    margin-top: 1rem;
+   font-family: 'Goldman', cursive;
+}
+.adfield{
+    margin: 10px;
+}
+
+
+
+.box{
+    background: linear-gradient(120deg, rgb(255, 0, 0) 0%, rgb(180, 0, 0) 50%, rgb(255, 0, 0) 100%);
+    border: solid rgb(0, 0, 0) 1px;
+}
+
+.box.r1.b1 {
+    background: linear-gradient(120deg, rgb(255, 0, 0) 0%, rgb(180, 0, 0) 50%, rgb(255, 0, 0) 100%);
+}
+
+
+
+
+@media screen and (max-width: 1900px){
+
+    #vcontainer{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    #container{
+        height: auto;
+        background-repeat: repeat-y;
+    }
+    
+    #maincanvas{
+        
+        height: 350px;
+        width: 350px;
+        
+    } 
+    #gridcontroller{
+        margin-left: 5vw;
+    }
+    #adressfield{
+        margin-right: 5vw;
+        
+
+    }
+    
+    }
+
+@media screen and (max-width: 1000px){
+
+    #vcontainer{
+        grid-template-columns: 1fr;
+        
+    }
+    
+    #container{
+        height: auto;
+        background-repeat: repeat-y;
+    }
+    
+    #maincanvas{
+        
+        height: 350px;
+        width: 350px;
+        
+    } 
+
+    #gridcontroller{
+        order: 1;
+        margin: auto;
+        
+    }
+
+    #adressfield{
+        margin: auto;
+        margin-top: 2rem;
+       
+        order: 2;
+
+    }
+    
+    }
+
+
+    @media screen and (max-width: 600px){
+
+        #vcontainer{
+            grid-template-columns: 1fr;
+            
+        }
+        
+        #container{
+            height: auto;
+            background-repeat: repeat-y;
+        }
+        
+        #maincanvas{
+            
+            height: 150px;
+            width: 150px;
+            
+        } 
+        #gridcontroller{
+           
+        }
+        #adressfield{
+        
+            
+    
+        }
+        
+        }
+
+
+
