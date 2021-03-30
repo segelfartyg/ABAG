@@ -9,6 +9,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 0;
+   
 }
 
 
@@ -27,6 +28,83 @@ header{
 
 
 }
+
+
+#overlaycontainer{
+
+    display: grid;
+    position: absolute;
+    width: 93%;
+  
+    height: 93%;
+  background: rgb(255, 255, 255);
+    z-index: 3;
+ display: none;
+   animation: none 0.1s forwards;
+   
+}
+
+@keyframes nodefade{
+
+    0%{
+
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+
+    }
+}
+
+@keyframes nodefadeback{
+
+    0%{
+
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+
+    }
+}
+#nodeprops{
+    margin: auto;
+    padding: 35px;
+    padding-top: 5px;
+}
+
+#demonode{
+    height: 3rem;
+    width: 3rem;
+    margin: 2rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    background: linear-gradient(120deg, rgb(255, 0, 0) 0%, rgb(180, 0, 0) 50%, rgb(255, 0, 0) 100%);
+    background: linear-gradient(120deg, rgb(27, 27, 27) 0%, rgb(70, 70, 70) 50%, rgb(27, 27, 27) 100%);
+    background: linear-gradient(120deg, rgb(0, 116, 6) 0%, rgb(0, 255, 13) 50%, rgb(0, 116, 6) 100%);
+    background: linear-gradient(120deg, rgb(175, 0, 131) 0%, rgb(250, 78, 241) 50%, rgb(175, 0, 131) 100%);
+    background: linear-gradient(120deg, rgb(133, 133, 133) 0%, rgb(248, 248, 248) 50%, rgb(133, 133, 133) 100%);
+
+    
+}
+
+#submitnodeform{
+    display: grid;
+}
+
+.submitnode{
+    width: 5rem;
+    height: 2rem;
+    margin: auto;
+}
+
+.columnform{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .wavebar{
     width: 100%;
@@ -116,7 +194,7 @@ background-repeat: repeat-y;
 
 
 
-.footer{
+#footer{
     min-height: 5%;
     width: 100%;
     background: linear-gradient(20deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
